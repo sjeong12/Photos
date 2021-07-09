@@ -53,7 +53,7 @@ String ID = (String)session.getAttribute("G_MEMID");
    
    
    Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-   String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=11";
+   String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=1234";
    Connection con = DriverManager.getConnection(connectionURL);
    PreparedStatement pstmt = null;
    ResultSet rs = null;		// 데이터 베이스에서 가져온 정보를 저장하는 객체 

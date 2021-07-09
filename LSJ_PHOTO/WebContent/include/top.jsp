@@ -5,7 +5,7 @@
 
 </div> 
 
-	<div id="bottom" style="text-align:right;">
+	<div id="bottom" style="text-align:center;">
 	<font size="2">
 	
 <%
@@ -41,5 +41,5 @@ String in_userid = (String)session.getAttribute("G_MEMID");
 </font> 
 
 <br/>
-<img src="homepageImage/line.PNG" border="0" width="890" height="10"/>
+<img src="homepageImage/line.PNG" border="0" width="100%" height="10"/>
 </div> 

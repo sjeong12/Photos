@@ -129,7 +129,7 @@ String in_userid = request.getParameter("puserid");
 //String in_jumin2 = request.getParameter("pjumin2");
 
 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=11";
+String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=1234";
 Connection con = DriverManager.getConnection(connectionURL);
 PreparedStatement pstmt = null;
 ResultSet rs = null;

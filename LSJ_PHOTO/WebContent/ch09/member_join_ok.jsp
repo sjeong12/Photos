@@ -5,7 +5,7 @@
 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
 // 단계2 : 커넥션 객체 생성
-String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=11";
+String connectionURL = "jdbc:sqlserver://localhost:1433;databaseName=DBPstudio;user=sa;password=1234";
 Connection con = java.sql.DriverManager.getConnection(connectionURL);
 
 // 단계3 : PreparedStatement 객체 생성
